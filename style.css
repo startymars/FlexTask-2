@@ -1,0 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	line-height: 42px;
+
+}
+
+img{
+	display: block;
+}
+
+.font-weight-black{
+	font-weight:900;
+}
+
+.font-weight-bold{
+	font-weight:700;
+}
+
+.font-weight-medium{
+	font-weight:500;
+}
+
+.line-he-36{
+	line-height: 36px;
+}
+
+.line-he-30{
+	line-height: 30px;
+}
+
+
+h1{
+	font-size: 80px;
+	line-height: 106px;
+	
+}
+
+.ml-16{
+	margin-left: 16px;
+}
+
+.ml-24{
+	margin-left: 24px;
+}
+
+.mr-24{
+	margin-right: 24px;
+}
+
+
+
+.mt-12{
+	margin-top: 12px;
+}
+
+.mt-16{
+	margin-top: 16px;
+}
+
+.mt-32{
+	margin-top: 32px;
+}
+
+.mt-40{
+	margin-top: 40px;
+}
+
+
+.mt-56{
+	margin-top: 56px;
+}
+
+.mb-48{
+	margin-bottom: 48px;
+}
+
+.mb-68{
+	margin-bottom: 68px;
+}
+
+.mb-160{
+	margin-bottom: 160px;
+}
+
+.mt-144{
+	margin-top: 144px;
+}
+
+.pt-4{
+	padding-top: 4px;
+}
+
+.pt-8{
+	padding-top: 8px;
+}
+
+
+.pt-20{
+	padding-top: 20px;
+}
+
+.pb-24{
+	padding-bottom: 24px;
+}
+
+.pt-28{
+	padding-top: 28px;
+}
+
+
+.pt-40{
+	padding-top: 40px;
+}
+
+.pb-40{
+	padding-bottom: 40px;
+}
+
+
+.pt-56{
+	padding-top: 56px;
+}
+
+.pt-64{
+	padding-top: 64px;
+}
+
+.pb-64{
+	padding-bottom: 64px;
+}
+
+.bg-image{
+	height:958px;
+	background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.icon{
+	display: flex;
+}
+
+
+.title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start	;
+	padding-top:300px;
+	padding-left: 570px;
+	
+}
+
+.color-white{
+	color: white;	
+}
+
+p{
+	font-size: 24px;
+	line-height: 36px;	
+}
+
+h2{
+	font-size: 64px;
+	line-height: 84px;
+}
+
+.profile{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile img{
+	width:384px;
+	height:384px;
+}
+
+.profile ul{
+	text-align: center;
+	
+}
+
+
+.border{
+	border-bottom: 1px solid black;
+}
+
+
+.dot {
+	display: flex;
+	align-items: center;
+
+  }
+
+.dot::before {
+	content:"";
+	width: 22px;
+	height: 22px;
+	background-color: #891818;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+
+
+.bg-color{
+	background-color: black;
+}
+
+
+.brand-title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.brand-title p{
+	text-align:center;
+}
+
+.brand ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.brand-title img{
+	width: 792px;
+	height: 416px;
+}
+
+.f-24-42{
+	font-size: 24px;
+	line-height: 42px;
+}
+
+.brand ul img{
+	width: 588px;
+	height: 416px;
+}
+
+.sub-title{
+	font-size: 20px;
+}
+
+
+.work{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.poster{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.camera{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.design{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.work-photo li{
+	text-align: center;
+}
+
+.name{
+	font-size: 20px;
+	line-height: 42px;
+}
+
+.wk-photo{
+	width: 384px;
+	height: 528px;
+}
+
+
+.footer-context{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer a{
+
+	text-decoration: none;
+	color: white;
+}
+
